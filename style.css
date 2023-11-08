@@ -1,0 +1,147 @@
+@font-face {
+    font-family: poppins;
+    src: url(./assets/Oswald/Oswald-VariableFont_wght.ttf);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1000px;
+    max-height: 400px;
+}
+.navbar img:first-child{
+    position: absolute;
+    top: 42px;
+    left: 100px;
+    width: 60px;
+    height: 60px;
+}
+.navbar img:last-child{
+    position: absolute;
+    width: 68.25px;
+    height: 30px;
+    top: 60px;
+    left: 220px;
+}
+.navbar h2{
+    font-family: poppins, sans-serif;
+    margin-top: -712px;
+    margin-left: 90px;
+    color: #ffffff;
+}
+.drop_down{
+    display: flex;
+    gap: 0px;
+    margin-left: 500px;
+    margin-top: -75px;
+    justify-content: space-between;
+}
+.drop_down>ul{
+    width: 60px;
+    height: 18px;
+    font-size: 22px;
+    color: #FFF;
+    font-family: poppins;
+    padding: 0px;
+}
+.drop_down>ul:hover{
+    width: 50px;
+    text-align: center;
+    height: 2px;
+    background: #EB0000;
+}
+.container>.price>p:first-child{
+    width: 126px;
+    height: 43.5px;
+    color: #E70000;
+    font-family: poppins;
+    font-size: 40px;
+    margin-top: 500px;
+    margin-left: 800px;
+}
+.container>.price>p:last-child{
+    width: 189px;
+    height: 42px;
+    color: #FFF;
+    font-family: poppins;
+    font-size: 20px;
+    margin-left: 880px;
+    margin-top: -33px;
+    line-height: 20.25px;
+    letter-spacing: 3.78px;
+}
+.container button{
+    background-color: #E70000;
+    border-radius: 7px;
+    color: #FFF;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    margin-top: 455px;
+    margin-left: 1000px;
+}
+.container button:hover{
+    font-size: 15px;
+}
+.another>p{
+    color: #ffffff;
+    font-family: poppins;
+    font-size: 18px;
+    margin-left: 120px;
+}
+.another img:hover{
+    border: 1px solid  #E70000;
+}
+.container>.another>button:nth-child(5){
+    color: black;
+    background-color: #ffffff;
+    margin-top: 50px;
+    border-radius: 0%;
+    margin-left: 60px;
+    width: 100px;
+    height: 35px;
+    font-family: poppins,sans-serif;
+}
+.container>.another>button:nth-child(6){
+    font-family: poppins ,sans-serif;
+    color: #ffffff;
+    background-color: hidden;
+    margin-top: 50px;
+    border-radius: 0%;
+    margin-left: 200px;
+    width: 100px;
+    height: 35px;
+}
+.container>.another>button:nth-child(5):hover{
+color: #ffffff;
+background-color: #000;
+}
+.container>.another>button:nth-child(6):hover{
+color: #E70000;
+background-color: #ffffff;
+}
+.about>span{
+    width: 150px;
+    color: #fff;
+    position: absolute;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: 1100px;
+}
+.about>p{
+    width: 300px;
+    height: 60.75px;
+    color: #FFF;
+    font-family: poppins;
+    font-size: 15px;
+    line-height: 20.25px;
+    margin-top: -80px;
+    margin-left: 1100px;
+}
+@media screen(max-width:700px) {
+    .navbar{
+        flex-direction: column;
+    }
+}
